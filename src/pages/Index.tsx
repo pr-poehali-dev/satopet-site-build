@@ -62,7 +62,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-warm-beige">
+    <div className="min-h-screen bg-black">
       {/* Header */}
       <header className="bg-white shadow-sm">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
