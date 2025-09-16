@@ -64,17 +64,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-black">
       {/* Header */}
-      <header className="bg-white shadow-sm">
+      <header className="bg-black shadow-sm border-b border-gray-800">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="text-warm-brown text-2xl">🐾</div>
-              <h1 className="text-2xl font-montserrat font-bold text-warm-brown">SatoPet</h1>
+              <h1 className="text-2xl font-montserrat font-bold text-white">SatoPet</h1>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#animals" className="text-gray-700 hover:text-warm-brown transition-colors font-open-sans">Наши питомцы</a>
-              <a href="#services" className="text-gray-700 hover:text-warm-brown transition-colors font-open-sans">Услуги</a>
-              <a href="#contact" className="text-gray-700 hover:text-warm-brown transition-colors font-open-sans">Контакты</a>
+              <a href="#animals" className="text-gray-300 hover:text-warm-brown transition-colors font-open-sans">Наши питомцы</a>
+              <a href="#services" className="text-gray-300 hover:text-warm-brown transition-colors font-open-sans">Услуги</a>
+              <a href="#contact" className="text-gray-300 hover:text-warm-brown transition-colors font-open-sans">Контакты</a>
             </div>
             <Button className="bg-warm-brown hover:bg-warm-brown/90 text-white font-open-sans">
               Помочь питомцу
@@ -84,13 +84,13 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-warm-cream to-warm-beige py-20">
+      <section className="relative bg-gradient-to-r from-gray-900 to-black py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-5xl font-montserrat font-bold text-warm-brown mb-6">
+            <h2 className="text-5xl font-montserrat font-bold text-white mb-6">
               Дом для каждого сердца
             </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-8 font-open-sans">
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 font-open-sans">
               Питомник SatoPet — это место, где животные находят любовь, заботу и новые семьи. 
               Каждый питомец заслуживает счастливой жизни.
             </p>
@@ -109,33 +109,33 @@ const Index = () => {
       </section>
 
       {/* Statistics */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-warm-brown mb-2 font-montserrat">150+</div>
-              <p className="text-gray-600 font-open-sans">Питомцев нашли дом</p>
+              <p className="text-gray-300 font-open-sans">Питомцев нашли дом</p>
             </div>
             <div>
               <div className="text-4xl font-bold text-warm-brown mb-2 font-montserrat">25</div>
-              <p className="text-gray-600 font-open-sans">Животных сейчас в питомнике</p>
+              <p className="text-gray-300 font-open-sans">Животных сейчас в питомнике</p>
             </div>
             <div>
               <div className="text-4xl font-bold text-warm-brown mb-2 font-montserrat">5</div>
-              <p className="text-gray-600 font-open-sans">Лет заботимся о животных</p>
+              <p className="text-gray-300 font-open-sans">Лет заботимся о животных</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Animals Section */}
-      <section id="animals" className="py-20 bg-warm-beige">
+      <section id="animals" className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-montserrat font-bold text-warm-brown mb-4">
+            <h3 className="text-4xl font-montserrat font-bold text-white mb-4">
               Наши питомцы
             </h3>
-            <p className="text-lg text-gray-700 font-open-sans max-w-2xl mx-auto">
+            <p className="text-lg text-gray-300 font-open-sans max-w-2xl mx-auto">
               Познакомьтесь с нашими удивительными животными, каждый из которых мечтает о любящей семье
             </p>
           </div>
@@ -183,13 +183,13 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
+      <section id="services" className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-4xl font-montserrat font-bold text-warm-brown mb-4">
+            <h3 className="text-4xl font-montserrat font-bold text-white mb-4">
               Наши услуги
             </h3>
-            <p className="text-lg text-gray-700 font-open-sans max-w-2xl mx-auto">
+            <p className="text-lg text-gray-300 font-open-sans max-w-2xl mx-auto">
               Мы обеспечиваем полный спектр услуг для заботы о животных
             </p>
           </div>
